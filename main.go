@@ -10,6 +10,7 @@ import (
 
 func main() {
 	e := echo.New()
+	println(e)
 
 	sum := math.Sum(1, 2)
 	fmt.Println(sum)
